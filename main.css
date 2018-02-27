@@ -1,7 +1,9 @@
 body {
-  background: #000;
-}
+  background-color: #eee;
+  color: black; }
 
 h1 {
-  color: #FF2734;
-}
+  color: red;
+  font-weight: bold; }
+
+/*# sourceMappingURL=main.css.map */
