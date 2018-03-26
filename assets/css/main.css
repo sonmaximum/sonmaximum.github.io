@@ -116,7 +116,7 @@
 		margin: 0 auto;
 		text-align: justify;
 	}
-	
+
 	@media screen and (max-width: 1080px) {
 
 		.container.\31 25\25 {
@@ -1802,7 +1802,8 @@
 		}
 
 			.box.style1 .image {
-				display: block;
+        align-items: center;
+				display: flex;
 				position: absolute;
 				top: 0;
 				width: 50%;
@@ -1812,10 +1813,10 @@
 			}
 
 				.box.style1 .image img {
-					position: absolute;
-					top: 0;
-					height: 100%;
-					width: auto;
+					/* position: absolute;
+					top: 0; */
+					height: auto;
+					width: 100%;
 				}
 
 			.box.style1 .inner > :last-child {
