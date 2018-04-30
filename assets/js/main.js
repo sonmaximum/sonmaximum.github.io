@@ -63,7 +63,7 @@
 		// Scrolly links.
 			$('.scrolly-middle').scrolly({
 				speed: 1000,
-				anchor: 'middle'
+				anchor: 'top'
 			});
 
 			$('.scrolly').scrolly({

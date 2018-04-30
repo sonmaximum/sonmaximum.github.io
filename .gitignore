@@ -4,6 +4,8 @@ vendor.js
 specs.js
 application.js
 _SpecRunner.html
+*.key
+*.csr
 
 public/
 

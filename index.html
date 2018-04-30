@@ -6,12 +6,13 @@
 -->
 <html>
 	<head>
-		<title>Max Juchheim</title>
+		<title>Max Juchheim - Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link href="data:image/x-icon;base64,AAABAAEAEBACAAAAAACwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAD///8AAwMDAP//AAD//wAA30EAAN9dAADfXQAA310AAN9dAADfXQAA330AAN99AADffQAA230AANV9AADEQQAA//8AAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
 	</head>
 	<body>
 
@@ -19,10 +20,17 @@
 			<section id="header">
 				<header>
 					<h1>Max Juchheim</h1>
-					<p>Fullstack Web Developer</p>
+					<p>Full Stack Web Developer</p>
 				</header>
 				<footer>
-					<a href="#banner" class="button style2 scrolly-middle">Portfolio</a>
+          <ul>
+            <li>
+					<a href="#banner" class="about-me-button button style2 scrolly-middle">About Me</a>
+        </li>
+      <li>
+          <a href="#project-header" class="projects-button button style2 scrolly-middle">Projects</a>
+        </li>
+      </ul>
 				</footer>
 			</section>
 
@@ -30,48 +38,55 @@
 			<section id="banner">
 				<header>
 					<h2>About Me</h2>
-					<img src="images/meorange.png" alt="" />
+          <div class="pic-div">
+  					<img class="me-pic" src="images/meorange.png" alt="Me" />
+          </div>
 				</header>
 					<div  class='aboutme'>
 					<p>
 						My name's Max Juchheim, and I'm a software developer.
-					</p>
+					</p><br>
 					<p>
 						My background is in biological science, and I got my first exposure to programming
-						while working as a molecular biologist at a the DNA repository Addgene.
+						while working as a molecular biologist at the DNA repository Addgene.
 						Addgene tracks its samples with a custom laboratory information
 						management system built in Python, and I began learning that language
 						in order to interface with it.
-					</p>
+					</p><br>
 					<p>
 						I found myself becoming more and more interested in computer science,
 						and I also found that the same skills that I had developed in life
 						sciences research (logical thinking, problem solving, and
 						organization, to name a few) serve me well for programming.
-					</p>
+					</p><br>
 					<p>
 						While at Addgene, I was given access to the company codebase and was
 						 able to make 20+ pull requests that were successfully merged and
 						 deployed.
-					</p>
+					</p><br>
 					<p>
-						Concurrently with that, I spent a couple of years studying coding
-						independently and taking online classes, and eventually enrolled in
+						Concurrently, I spent a couple of years studying coding
+						independently and taking online classes. I eventually enrolled in
 						an immersive full-stack web development program where I was able to
-						further develop my skills as in programming. I'm currently actively
+						further develop my skills in programming. I'm actively
 						looking for new opportunities to continue pursuing my passion as a
 						developer!
 					</p>
 				</div>
-				<footer>
-          <!-- <a href="#first" class="button style2 scrolly">Resume</a> -->
-          <a href="/MaxJuchheimResume4-24-18.pdf" class="button style2 scrolly">Resume</a>
+				<footer class="about-me-footer">
+          <a href="/MaxJuchheimResume4-24-18.pdf" class="button style2 scrolly">Download Resume</a>
 				</footer>
 			</section>
 
+      <article class="container box style2" id="project-header">
+        <header>
+          <h2 class='project-header'>Selected Web Development Works</h2>
+        </header>
+      </article>
+
 		<!-- Feature 1 -->
 			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/tictactoe.png" alt="Tic Tac Toe" /></a>
+				<a href="https://sonmaximum.github.io/maxs-tictactoe-game" class="image fit"><img src="images/tictactoe.png" alt="Tic Tac Toe" /></a>
 				<div class="inner">
 					<header>
 						<h2>Max's Tic-Tac-Toe Game</h2>
@@ -84,7 +99,7 @@
 
 		<!-- Feature 2 -->
 			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/climbercrud.png" alt="Climber CRUD" /></a>
+				<a href="https://sonmaximum.github.io/climber-crud" class="image fit"><img src="images/climbercrud.png" alt="Climber CRUD" /></a>
 				<div class="inner">
 					<header>
 						<h2>Climber CRUD<br />
@@ -100,7 +115,7 @@
 			</article>
       <!-- Feature 3 -->
 			<article id="third" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/jumpahead.png" alt="Jump Ahead" /></a>
+				<a href="https://jump-ahead-jmen.github.io/jump-ahead" class="image fit"><img src="images/jumpahead.png" alt="Jump Ahead" /></a>
 				<div class="inner">
 					<header>
 						<h2>Jump Ahead!</h2>
@@ -117,9 +132,9 @@
 		<!-- Portfolio -->
 			<article class="container box style2">
 				<header>
-					<h2>Magnis parturient</h2>
-					<p>Justo phasellus et aenean dignissim<br />
-					placerat cubilia purus lectus.</p>
+					<h2>Skills</h2>
+					<!-- <p>Justo phasellus et aenean dignissim<br />
+					placerat cubilia purus lectus.</p> -->
 				</header>
 				<div class="inner gallery">
 					<div class="row 0%">
@@ -138,7 +153,7 @@
 		  </article>
 
 		<!-- Contact -->
-			<article class="container box style3">
+			<!-- <article class="container box style3">
 				<header>
 					<h2>Nisl sed ultricies</h2>
 					<p>Diam dignissim lectus eu ornare volutpat orci.</p>
@@ -157,15 +172,11 @@
 						</div>
 					</div>
 				</form>
-			</article>
+			</article> -->
 
 		<!-- Generic -->
-
+<!-- 
 			<article class="container box style3">
-				<header>
-					<h2>Generic Box</h2>
-					<p>Just a generic box. Nothing to see here.</p>
-				</header>
 				<section>
 					<header>
 						<h3>Paragraph</h3>
@@ -313,21 +324,19 @@
 						</div>
 					</form>
 				</section>
-			</article>
+			</article> -->
 
 
 		<section id="footer">
 			<ul class="icons">
-				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-				<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-				<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+				<li><a href="#" class="icon fa-phone"><span class="label">Phone</span></a></li>
+				<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
 				<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
-					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; Max Juchheim 2018. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</div>
 		</section>
