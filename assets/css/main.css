@@ -2634,3 +2634,17 @@ header.skill-header:before {
 div#skills.inner::after {
   z-index: -1;
 }
+
+@media screen and (max-height: 720px) {
+  section#header footer a.about-me-button {
+    display: none;
+  }
+  section#header header{
+    /* padding-bottom: 0px; */
+  }
+}
+
+#banner header h2 {
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
