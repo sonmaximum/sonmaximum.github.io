@@ -2635,13 +2635,8 @@ div#skills.inner::after {
   z-index: -1;
 }
 
-@media screen and (max-height: 720px) {
-  section#header footer a.about-me-button {
-    display: none;
-  }
-  section#header header{
-    padding-bottom: 50px;
-  }
+#header header p {
+  padding-bottom: 100px;
 }
 
 #banner header h2 {
