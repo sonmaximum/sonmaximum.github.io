@@ -2436,6 +2436,7 @@
             left: 0 !important;
             width: 100% !important;
             height: auto !important;
+            border-radius: 50px 50px 0 0 !important;
           }
 
             .box.style1 .image img {
