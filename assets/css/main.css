@@ -2563,3 +2563,73 @@
 .project-header {
   letter-spacing: 3px;
 }
+
+#skills {
+  padding: 50px 15px;
+  text-align: center;
+}
+
+#skills ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+}
+
+#skills li {
+  border-radius: 20px;
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: #374054;
+  background: #fff;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+  z-index: 2;
+}
+
+#skills img {
+  height: 26px;
+  width: 27px;
+  position: relative;
+  transform: translateY(15%);
+}
+
+#skills img#ember {
+  width: 65px;
+}
+
+#skills img#mongoose {
+  width: 59px;
+}
+
+#skills img#R {
+  width: 33px;
+}
+
+#skills img#handlebars {
+transform: translateY(60%);
+}
+
+.skill-header {
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+}
+
+header.skill-header:before {
+  content: '';
+  display: block;
+  width: 90px;
+  height: 66px;
+  position: absolute;
+  left: 50%;
+  bottom: -1.5em;
+  margin-left: -45px;
+  margin-bottom: -33px;
+  background: url("images/arrow.svg") no-repeat;
+}
+
+div#skills.inner::after {
+  z-index: -1;
+}
