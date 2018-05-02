@@ -3,6 +3,7 @@ Resources used include:
 
   Icons:
     Font Awesome (fortawesome.github.com/Font-Awesome)
+    Devicon (https://github.com/konpa/devicon/)
 
   Other:
     jQuery (jquery.com)
