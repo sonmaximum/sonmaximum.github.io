@@ -2,7 +2,7 @@ This repository contains Max's public code portfolio.
 Resources used include:
   
   Icons:  
-    Font Awesome (fortawesome.github.com/Font-Awesome)
+    Font Awesome (fortawesome.github.com/Font-Awesome)\
     Devicon (https://github.com/konpa/devicon/)  
   
   Other:  
