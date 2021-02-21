@@ -7,7 +7,7 @@
     "content": "CC­BY­NC­SA 4.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "grunt": "^1.0.2",
     "hoek": "^5.0.3",
     "jquery": "^3.1.1",
